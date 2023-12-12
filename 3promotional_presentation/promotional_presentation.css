@@ -1,0 +1,117 @@
+.page {
+    margin: 0;
+
+    background-color: #24324d;
+
+    display: flex;
+    justify-content: center;
+}
+
+.input-form {
+    width: 210px;
+    height: 230px;
+
+    margin: 50px 0 0 0;
+    padding: 18px 15px 18px 15px;
+
+    background-color: #3d6bb8;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-shadow: 6px 6px 5px 2px #1b2a4b;
+}
+
+.heading {
+    margin: 30px 0px 30px 0px;
+    padding: 0;
+
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.login-enter {
+    margin: 5px 0px 20px 0px;
+    padding: 0 0 0 10px;
+
+    width: 193px;
+    height: 36px;
+
+    background-color: #243551;
+    border-radius: 5px;
+    border: 1px solid #284370;
+
+    display: block;
+
+    box-shadow: inset 0px 5px 10px 0px #0d1927;
+
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.login-enter::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.button {
+    margin: 0px 0px 20px 0px;
+    padding: 0;
+
+    width: 203px;
+    height: 39px;
+
+    background-color: #b5cef6;
+    border-radius: 5px;
+    border: 1px solid #284370;
+    background-image: linear-gradient(#ffffff, #9fbdef);
+
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #29497c;
+
+    display: block;
+
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    background-image: linear-gradient(#9fbdef, #ffffff);
+
+    color: #29497c;
+}
+
+.button:active {
+    background-color: #b5cef6;
+    border-radius: 5px;
+    border: 1px solid #284370;
+    background-image: linear-gradient(#ffffff, #9fbdef);
+
+    color: #29497c;
+}
+
+.greeting-form {
+    margin-top: 100px;
+}
+
+.greeting {
+    width: 600px;
+    height: 40px;
+
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #e8ef1a;
+
+    text-align: center;
+}
