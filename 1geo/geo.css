@@ -2,11 +2,11 @@ body {
     margin: 0;
 }
 
-.page {
+.container {
     margin: 15px 0 0 15px;
 }
 
-.page__button {
+.container__button {
     padding: 0 0 5px 0;
 
     width: 330px;
@@ -23,7 +23,7 @@ body {
     font-size: 22px;
 }
 
-.page__geolocation {
+.container__geolocation {
     margin: 15px 0 0 0;
     padding: 0;
 
@@ -32,6 +32,6 @@ body {
     font-size: 25px;
 }
 
-.page__geolocation__error {
+.container__geolocation-error {
     color: #f03232;
 }
